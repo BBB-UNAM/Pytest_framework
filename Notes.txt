@@ -1,0 +1,21 @@
+creasion de mi entorno virtual version 1
+$ python3 -m venv version1
+
+para activar en entorno virtual creado:
+$ source version1/bin/activate
+
+para desactivar el entorno virtual:
+$ deactivate
+
+para instalar las librerias nesesarios para trabajar con bdd y putest
+$ pip instal pytest
+$ pip install pytest-bdd
+
+para correr todos los casos de prueba
+$ pytest
+
+para correr los test cases con log completo
+$ pytest -s
+
+Para instalar la version mas resiente de requests
+$ pip install requests
